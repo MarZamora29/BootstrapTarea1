@@ -1,0 +1,128 @@
+/* ESTILOS SOLO PARA PERFIL:-------------------------------------------------------*/
+#perfil-mar {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e6e6fa !important; /* Lila pastel hermoso 💜 */
+  color: #222;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+#perfil-mar h1#osito {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: #333;
+  text-decoration: none; /*aparecia subrayado, es por default? por eso puse esto */
+}
+
+/* Subtítulo */
+#perfil-mar h3 {
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Imagen de perfil */
+#perfil-mar img {
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  max-width: 200px;
+  height: auto;
+  border: 3px solid #ddd;
+}
+
+/* Párrafos */
+#perfil-mar p {
+  text-align: center;
+  margin-bottom: 16px;
+  text-decoration: none; /* por si algún estilo raro lo estaba subrayando */
+}
+
+/* Lista de pasatiempos */
+#perfil-mar ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+#perfil-mar ol li {
+  margin-bottom: 8px;
+}
+
+/* Enlace */
+#perfil-mar a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #3b5998;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#perfil-mar a:hover {
+  text-decoration: underline;
+}
+
+/* Líneas horizontales */
+#perfil-mar hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* FORMULARIO ---------------------------------------------------------------------*/
+.formulario-simple {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.formulario-simple h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.formulario-simple label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formulario-simple input[type="text"],
+.formulario-simple input[type="email"],
+.formulario-simple input[type="password"],
+.formulario-simple input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.formulario-simple .checkbox-group {
+  margin-top: 15px;
+}
+
+.formulario-simple .checkbox-group label {
+  display: block;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.formulario-simple input[type="checkbox"] {
+  margin-right: 8px;
+}

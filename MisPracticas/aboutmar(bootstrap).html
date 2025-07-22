@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustos de Mar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <style>
+    /* Media queries para centrar texto en móvil */
+    @media (max-width: 576px) {
+      .responsive-center {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<!-- desarrollando bootstrap ejercicio y tarea de Fer -->
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://127.0.0.1:5500/aboutmar.html#">Mar 🌊🧸</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#cards">Inicio</a>
+            <!-- para llevarlo a la sección de tarjetas solamente puse id="cards" en el div carrusel-tarjetas <div id="cards" class="container mb-4"> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practica1tarea1.html">Conóceme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CARRUSEL -->
+  <div id="cards" class="container mb-4">
+    <div id="carouselMar" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://cdn.pixabay.com/photo/2025/05/21/15/34/snow-mountain-9614087_1280.jpg" class="d-block w-100" alt="figura masculina viendo paisaje de montaña">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2020/07/23/02/39/cats-5430221_1280.jpg" class="d-block w-100" alt="gato macho asomando su cara">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2017/09/22/23/38/drumsticks-2777525_1280.jpg" class="d-block w-100" alt="instrumento musical llamado batería">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMar" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselMar" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- CUADRÍCULA CON 4 CARDS -->
+<div class="container mb-4">
+  <!-- Fila 1 -->
+  <div class="row mb-4">
+    <div class="col-sm-6">
+      <div class="card h-100">
+        <img src="https://www.mondosonoro.com/wp-content/uploads/2020/02/the-strokes-1.jpg" class="card-img-top" alt="banda de rock cuyo nombre es The Strokes">
+        <div class="card-body">
+          <h5 class="card-title">The Strokes</h5>
+          <p class="card-text">Mi grupo de rock alternativo favorito. 1/3</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card h-100">
+        <img src="https://i0.wp.com/www.freim.tv/wp-content/uploads/2023/02/tame-impala-1-1.jpg?fit=1200%2C800&ssl=1" class="card-img-top" alt="banda de indie rock cuyo nombre es Tame Impala">
+        <div class="card-body">
+          <h5 class="card-title">Tame Impala</h5>
+          <p class="card-text">Mi grupo de indie rock favorito. 2/3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fila 2 -->
+  <div class="row">
+    <div class="col-sm-6 mb-4">
+      <div class="card h-100">
+        <img src="https://indierocks.sfo3.digitaloceanspaces.com/wp-content/uploads/2017/02/Kings-Of-Leon-2017.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kings of Leon</h5>
+          <p class="card-text">Mi grupo favorito de rock con influencia sureña y de blues. 3/3</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 mb-4">
+      <div class="card h-100">
+        <img src="https://st1.uvnimg.com/f2/ba/72152ad942bb865161f348f90d31/reik.jpg" class="card-img-top" alt="grupo de rock super pesado y metalero llamado Reik jaja">
+        <div class="card-body">
+          <h5 class="card-title">Reik</h5>
+          <p class="card-text">Grupo de rock super pesado, metalero asi bien heavy metal, de esos que no soportan ni tu mamá, ni tu abuelita, en efecto, hablo de Reik jaja 🎼noviembre sin ti es sentir que la lluvia, me dice llorando que todo acabó 😭🎵🎶🎼 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- FOOTER -->
+  <footer id="contacto" class="bg-light py-4">
+    <div class="container">
+      <div class="row text-center text-sm-start">
+        <div class="col-sm-3 mb-3 responsive-center">
+          <h6>Redes</h6>
+          <p>Encuéntrame en IG, Facebook, Snapchat y Threads</p>
+        </div>
+        <div class="col-sm-6 mb-3 responsive-center">
+          <h6>Sobre Mar</h6>
+          <p>Matemática creativa, programadora en Python, amante de los gatos y con mucho amor que compartir. ¡Gracias por visitar!</p>
+        </div>
+        <div class="col-sm-3 mb-3 responsive-center">
+          <h6>Contacto</h6>
+          <p>Email: zamoramariell29@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
